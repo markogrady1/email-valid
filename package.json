@@ -4,7 +4,10 @@
   "description": "queueing and scheduling package",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "node src/index.js",
+    "test": "jest",
+    "lint": "eslint \"src/**/*.js\" \"src/*.js\"",
+    "lint:fix": "npm run lint -- --fix"
   },
   "keywords": [
     "queue"
@@ -13,5 +16,17 @@
   "license": "ISC",
   "dependencies": {
     "typescript": "^4.3.5"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-jest": "^24.4.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "eslint-plugin-promise": "^5.1.0",
+    "jest": "^27.0.6",
+    "prettier": "^2.3.2",
+    "supertest": "^6.1.6"
   }
 }
