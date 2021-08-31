@@ -1,4 +1,4 @@
-# email-validation
+# email-valid
 
 [![Linux Build][ci-image]][ci-url]
 <!-- to be used when/if numbers are respectable[![NPM Version][npm-image]][npm-url] [![NPM Downloads][downloads-image]][downloads-url]-->
@@ -8,7 +8,7 @@ package to perform validation on email addresses.
 ### Installation
 
 ```bash
-npm install email-validation
+npm install email-valid
 ```
 ### Usage
 
@@ -17,7 +17,7 @@ npm install email-validation
 simply pass the `validate` function an email string.
 
 ```javascript
-const email = require('email-validation');
+const email = require('email-valid');
 
 const result = email.validate('föo@domain.com');
 console.log(result) // output: true
