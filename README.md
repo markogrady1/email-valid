@@ -62,9 +62,9 @@ npm run test
 
 
 
-[ci-image]: https://img.shields.io/github/workflow/status/markogrady1/email-valid/nodejs/master.svg?label=build
-[ci-url]: https://github.com/markogrady1/queues/actions?query=workflow%3Anodejs
-[npm-image]: https://img.shields.io/npm/v/node-resque-data.svg
+[ci-image]: https://img.shields.io/github/workflow/status/markogrady1/email-valid-simple/nodejs/master.svg?label=build
+[ci-url]: https://github.com/markogrady1/email-valid-simple/actions?query=workflow%3Anodejs
+[npm-image]: https://img.shields.io/npm/v/email-valid-simple.svg
 [npm-url]: https://npmjs.org/package/email-valid
-[downloads-image]: https://img.shields.io/npm/dm/node-resque-data.svg
-[downloads-url]: https://npmcharts.com/compare/node-resque-data?minimal=true
+[downloads-image]: https://img.shields.io/npm/dm/email-valid-simple.svg
+[downloads-url]: https://npmcharts.com/compare/email-valid-simple?minimal=true
