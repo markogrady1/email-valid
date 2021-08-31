@@ -1,5 +1,5 @@
 {
-  "name": "email-valid",
+  "name": "email-valid-simple",
   "version": "0.0.1",
   "description": "email validation",
   "main": "index.js",
