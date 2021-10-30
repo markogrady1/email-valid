@@ -1,6 +1,6 @@
 {
   "name": "email-valid-simple",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "email validation",
   "main": "index.js",
   "repository": {
