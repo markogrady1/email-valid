@@ -3,6 +3,10 @@
   "version": "0.0.1",
   "description": "email validation",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/markogrady1/email-valid-simple.git"
+  },
   "scripts": {
     "test": "jest",
     "lint": "eslint \"src/**/*.js\" \"src/*.js\"",
